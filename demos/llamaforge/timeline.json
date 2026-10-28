@@ -1,0 +1,370 @@
+{
+  "schema": "repo-saga/timeline@1",
+  "repo": {
+    "name": "LlamaForge",
+    "head": "47df24df908dfd56fc19b58a34c3d83acb5d187f",
+    "first": "2026-07-20T21:46:06+02:00",
+    "last": "2026-10-26T11:23:17+01:00",
+    "commits": 470,
+    "authors": 2,
+    "tags": 16
+  },
+  "chapters": [
+    {
+      "n": "I",
+      "kind": "genesis",
+      "title": "Genesis",
+      "date": "2026-07-20",
+      "facts": [
+        "F1",
+        "F2"
+      ],
+      "cards": [
+        {
+          "sha": "3df1970",
+          "author": "dadwritestech",
+          "date": "2026-07-20 21:46",
+          "subject": "chore: initial commit of LlamaForge working tree (pre-lite-mode)",
+          "add": 6879,
+          "del": 0,
+          "note": "the first commit"
+        }
+      ]
+    },
+    {
+      "n": "II",
+      "kind": "refactor",
+      "title": "The Great Rewrite",
+      "date": "2026-07-25",
+      "facts": [
+        "F5"
+      ],
+      "cards": [
+        {
+          "sha": "c99a8f6",
+          "author": "dadwritestech",
+          "date": "2026-07-25 14:50",
+          "subject": "Address architect review: persistence, trust boundary, routing, engines…",
+          "add": 5165,
+          "del": 2632,
+          "note": "the big one"
+        }
+      ]
+    },
+    {
+      "n": "III",
+      "kind": "force_push",
+      "title": "History Rewritten",
+      "date": "2026-07-25",
+      "facts": [
+        "F14"
+      ],
+      "cards": [
+        {
+          "sha": "17ff053",
+          "author": "dadwritestech",
+          "date": "2026-07-25 15:52",
+          "subject": "docs: resolve sibling .md crosslinks in both the site and the in-app viewer",
+          "add": 26,
+          "del": 2,
+          "note": "after a forced update"
+        }
+      ]
+    },
+    {
+      "n": "IV",
+      "kind": "first_release",
+      "title": "The First Release",
+      "date": "2026-09-06",
+      "facts": [
+        "F3"
+      ],
+      "cards": [
+        {
+          "sha": "e800ed0",
+          "author": "dadwritestech",
+          "date": "2026-09-06 21:13",
+          "subject": "Merge pull request #25 from dadwritestech/codex/fix-router-api-key-auth",
+          "add": 0,
+          "del": 0,
+          "note": "tag v0.9.0"
+        }
+      ]
+    },
+    {
+      "n": "V",
+      "kind": "silence",
+      "title": "The Silence",
+      "date": "2026-10-02",
+      "facts": [
+        "F12",
+        "F13"
+      ],
+      "cards": [
+        {
+          "sha": "e800ed0",
+          "author": "dadwritestech",
+          "date": "2026-09-06 21:13",
+          "subject": "Merge pull request #25 from dadwritestech/codex/fix-router-api-key-auth",
+          "add": 0,
+          "del": 0,
+          "note": "before"
+        },
+        {
+          "sha": "4f29059",
+          "author": "dadwritestech",
+          "date": "2026-10-02 21:24",
+          "subject": "chore: add issue/PR templates, CONTRIBUTING, ignore local scratch",
+          "add": 126,
+          "del": 0,
+          "note": "after"
+        }
+      ]
+    },
+    {
+      "n": "VI",
+      "kind": "fix_streak",
+      "title": "Fix, Fix, FIX",
+      "date": "2026-10-04",
+      "facts": [
+        "F7",
+        "F8"
+      ],
+      "cards": [
+        {
+          "sha": "35f9290",
+          "author": "dadwritestech",
+          "date": "2026-10-04 12:22",
+          "subject": "fix(embers): due dates survive when the quote words the date differently",
+          "add": 239,
+          "del": 20,
+          "note": ""
+        },
+        {
+          "sha": "eb7c510",
+          "author": "dadwritestech",
+          "date": "2026-10-04 12:24",
+          "subject": "fix(embers): an ISO date ending a sentence or starting a datetime still counts",
+          "add": 4,
+          "del": 3,
+          "note": ""
+        },
+        {
+          "sha": "a3936d2",
+          "author": "dadwritestech",
+          "date": "2026-10-04 14:12",
+          "subject": "fix(embers): a twice-rejected reply says what the model actually returned",
+          "add": 7,
+          "del": 3,
+          "note": ""
+        },
+        {
+          "sha": "773016a",
+          "author": "dadwritestech",
+          "date": "2026-10-04 16:19",
+          "subject": "fix(embers): models that think through the off switch stop the run instead of…",
+          "add": 57,
+          "del": 3,
+          "note": ""
+        },
+        {
+          "sha": "77e4054",
+          "author": "dadwritestech",
+          "date": "2026-10-04 16:46",
+          "subject": "fix(embers): a small positive thinking budget, since llama.cpp reads 0 as…",
+          "add": 8,
+          "del": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "n": "VII",
+      "kind": "refactor",
+      "title": "The Great Rewrite, Part II",
+      "date": "2026-10-05",
+      "facts": [
+        "F6"
+      ],
+      "cards": [
+        {
+          "sha": "6ab51ff",
+          "author": "dadwritestech",
+          "date": "2026-10-05 03:46",
+          "subject": "feat(builds): pin a model to its own build, run in its own process",
+          "add": 2487,
+          "del": 116,
+          "note": "the big one"
+        }
+      ]
+    },
+    {
+      "n": "VIII",
+      "kind": "late_night",
+      "title": "After Midnight",
+      "date": "2026-10-05",
+      "facts": [
+        "F9",
+        "F10",
+        "F11"
+      ],
+      "cards": [
+        {
+          "sha": "e92fe52",
+          "author": "dadwritestech",
+          "date": "2026-10-05 04:24",
+          "subject": "feat(mcp): drive LlamaForge and pi from Claude Code, Codex or any MCP client",
+          "add": 1455,
+          "del": 1,
+          "note": "before dawn"
+        }
+      ]
+    },
+    {
+      "n": "IX",
+      "kind": "present",
+      "title": "Present Day",
+      "date": "2026-10-26",
+      "facts": [
+        "F15",
+        "F16",
+        "F17",
+        "F4"
+      ],
+      "cards": [
+        {
+          "sha": "47df24d",
+          "author": "dadwritestech",
+          "date": "2026-10-26 11:23",
+          "subject": "release: v0.17.1",
+          "add": 6,
+          "del": 1,
+          "note": "today"
+        }
+      ]
+    }
+  ],
+  "facts": {
+    "F1": {
+      "id": "F1",
+      "text": "The first commit was made on July 20, 2026 by dadwritestech, titled \"chore: initial commit of LlamaForge working tree (pre-lite-mode)\".",
+      "sha": "3df1970e6f3a8f278eb14f78e905d4b618f76da4",
+      "date": "2026-07-20T21:46:06+02:00"
+    },
+    "F2": {
+      "id": "F2",
+      "text": "In its first 30 days the repository got 123 commits.",
+      "sha": "01c35735ac1f1996c76af738ae1e1ce6096b4d95",
+      "date": "2026-08-09T22:30:39+02:00"
+    },
+    "F3": {
+      "id": "F3",
+      "text": "The first tag, v0.9.0, was cut on September 6, 2026, 47 days after the first commit.",
+      "sha": "e800ed04ff428e59206622bb9d1d9808262bbd22",
+      "date": "2026-09-06T21:13:17+02:00"
+    },
+    "F4": {
+      "id": "F4",
+      "text": "There are 16 tags on the main line of history.",
+      "sha": "47df24df908dfd56fc19b58a34c3d83acb5d187f",
+      "date": "2026-10-26T11:23:17+01:00"
+    },
+    "F5": {
+      "id": "F5",
+      "text": "On July 25, 2026, dadwritestech landed \"Address architect review: persistence, trust boundary, routing, engines, frontend\": 54 files, +5,165 and -2,632 lines.",
+      "sha": "c99a8f63150e4dc9bd1749d8c82669700c547b58",
+      "date": "2026-07-25T14:50:56+02:00"
+    },
+    "F6": {
+      "id": "F6",
+      "text": "On October 5, 2026, dadwritestech landed \"feat(builds): pin a model to its own build, run in its own process\": 24 files, +2,487 and -116 lines.",
+      "sha": "6ab51ff4294987f5bf973041be5aa78f339763d7",
+      "date": "2026-10-05T03:46:02+02:00"
+    },
+    "F7": {
+      "id": "F7",
+      "text": "Between 12:22 p.m. on October 4, 2026 and 6:53 p.m., 13 fix-style commits landed in a row, over 6 hours.",
+      "sha": "1087eb9555d1b150fccb9576240d1ef8e5cc3612",
+      "date": "2026-10-04T18:53:50+02:00"
+    },
+    "F8": {
+      "id": "F8",
+      "text": "Their messages: \"fix(embers): due dates survive when the quote words the…\"; \"fix(embers): an ISO date ending a sentence or starting a…\"; \"fix(embers): a twice-rejected reply says what the model…\"; \"fix(embers): models that think through the off switch stop…\"; \"fix(embers): a small positive thinking budget, since…\".",
+      "sha": "77e4054d4f7881ce5243d73e7a9478ec59132cc6",
+      "date": "2026-10-04T16:46:42+02:00"
+    },
+    "F9": {
+      "id": "F9",
+      "text": "38 of 470 commits (8%) were authored between midnight and 5 a.m., by the committer's own clock.",
+      "sha": "10c341c979e48cb561ca58d72440800e9a889af1",
+      "date": "2026-10-26T02:27:33+01:00"
+    },
+    "F10": {
+      "id": "F10",
+      "text": "At 4:24 a.m. on October 5, 2026, dadwritestech committed \"feat(mcp): drive LlamaForge and pi from Claude Code, Codex or any MCP client\".",
+      "sha": "e92fe527d05ca766d76d63f29f5f34bb019dd097",
+      "date": "2026-10-05T04:24:05+02:00"
+    },
+    "F11": {
+      "id": "F11",
+      "text": "The most nocturnal author was dadwritestech, with 38 commits before 5 a.m.",
+      "sha": "10c341c979e48cb561ca58d72440800e9a889af1",
+      "date": "2026-10-26T02:27:33+01:00"
+    },
+    "F12": {
+      "id": "F12",
+      "text": "After \"Merge pull request #25 from dadwritestech/codex/fix-router-api-key-auth\" on September 6, 2026, nothing was committed for 26 days.",
+      "sha": "e800ed04ff428e59206622bb9d1d9808262bbd22",
+      "date": "2026-09-06T21:13:17+02:00"
+    },
+    "F13": {
+      "id": "F13",
+      "text": "The silence ended on October 2, 2026 when dadwritestech committed \"chore: add issue/PR templates, CONTRIBUTING, ignore local scratch\".",
+      "sha": "4f290598fbebf1840429ed8004f1b14d4a941906",
+      "date": "2026-10-02T21:24:30+02:00"
+    },
+    "F14": {
+      "id": "F14",
+      "text": "The local reflog records 2 forced updates, where history was rewritten and force-pushed.",
+      "sha": "17ff053d21731d6b3979f94c6372b6686fd8788c",
+      "date": "2026-07-25T15:52:47+02:00"
+    },
+    "F15": {
+      "id": "F15",
+      "text": "Today the history holds 470 commits by 2 authors, over 3 months.",
+      "sha": "47df24df908dfd56fc19b58a34c3d83acb5d187f",
+      "date": "2026-10-26T11:23:17+01:00"
+    },
+    "F16": {
+      "id": "F16",
+      "text": "Across all of them, 76,263 lines were added and 7,523 deleted, not counting lockfiles and vendored code.",
+      "sha": "47df24df908dfd56fc19b58a34c3d83acb5d187f",
+      "date": "2026-10-26T11:23:17+01:00"
+    },
+    "F17": {
+      "id": "F17",
+      "text": "The latest commit, on October 26, 2026, is \"release: v0.17.1\" by dadwritestech.",
+      "sha": "47df24df908dfd56fc19b58a34c3d83acb5d187f",
+      "date": "2026-10-26T11:23:17+01:00"
+    }
+  },
+  "unused_events": [],
+  "activity": [
+    {
+      "month": "2026-07",
+      "commits": 114
+    },
+    {
+      "month": "2026-08",
+      "commits": 15
+    },
+    {
+      "month": "2026-09",
+      "commits": 26
+    },
+    {
+      "month": "2026-10",
+      "commits": 315
+    }
+  ]
+}

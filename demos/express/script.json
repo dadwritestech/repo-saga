@@ -1,0 +1,484 @@
+{
+  "schema": "repo-saga/script@1",
+  "repo": "express",
+  "head": "1c6f1b0fe4000977b9a7b4f34097e4d527dd9824",
+  "model": "gemma-4-12b",
+  "title": "express",
+  "subtitle": "A history in 10 chapters, 2009–2026",
+  "chapters": [
+    {
+      "n": "I",
+      "kind": "genesis",
+      "title": "Genesis",
+      "date": "2009-06-26",
+      "cards": [
+        {
+          "sha": "9998490",
+          "author": "TJ Holowaychuk",
+          "date": "2009-06-26 11:56",
+          "subject": "Initial commit",
+          "add": 92,
+          "del": 0,
+          "note": "the first commit"
+        }
+      ],
+      "lines": [
+        {
+          "text": "A foundation was laid on June 26, 2009, with a commit from TJ Holowaychuk titled \"Initial commit\".",
+          "cites": [
+            "F1"
+          ],
+          "speak": "A foundation was laid on June 26, 2009, with a commit from TJ Holowaychuk titled \"Initial commit\"."
+        },
+        {
+          "text": "In the first 30 days, the repository received 179 commits.",
+          "cites": [
+            "F2"
+          ],
+          "speak": "In the first 30 days, the repository received 179 commits."
+        },
+        {
+          "text": "Throughout 2009, 5 authors produced 660 commits.",
+          "cites": [
+            "F42"
+          ],
+          "speak": "Throughout 2009, 5 authors produced 660 commits."
+        }
+      ]
+    },
+    {
+      "n": "II",
+      "kind": "fix_streak",
+      "title": "Fix, Fix, FIX",
+      "date": "2009-12-15",
+      "cards": [
+        {
+          "sha": "2d3d6da",
+          "author": "TJ Holowaychuk",
+          "date": "2009-12-15 15:37",
+          "subject": "Fixing specs due to Request change",
+          "add": 29,
+          "del": 95,
+          "note": ""
+        },
+        {
+          "sha": "3a90a78",
+          "author": "TJ Holowaychuk",
+          "date": "2009-12-15 15:40",
+          "subject": "Fixing more specs",
+          "add": 8,
+          "del": 11,
+          "note": ""
+        },
+        {
+          "sha": "995cde7",
+          "author": "TJ Holowaychuk",
+          "date": "2009-12-15 15:43",
+          "subject": "Fixed redirect helpers due to Request change",
+          "add": 36,
+          "del": 30,
+          "note": ""
+        },
+        {
+          "sha": "14befd6",
+          "author": "TJ Holowaychuk",
+          "date": "2009-12-15 15:46",
+          "subject": "More specs fixed",
+          "add": 71,
+          "del": 2,
+          "note": ""
+        },
+        {
+          "sha": "7ca5942",
+          "author": "TJ Holowaychuk",
+          "date": "2009-12-15 15:55",
+          "subject": "Fixed some cookie specs",
+          "add": 28,
+          "del": 26,
+          "note": ""
+        }
+      ],
+      "lines": [
+        {
+          "text": "On December 15, 2009, a period of rapid correction began.",
+          "cites": [
+            "F27"
+          ],
+          "speak": "On December 15, 2009, a period of rapid correction began."
+        },
+        {
+          "text": "Between 3:37 p.m. and 4:47 p.m., 7 fix-style commits landed in a row over 69 minutes.",
+          "cites": [
+            "F27"
+          ],
+          "speak": "Between 3:37 p.m. and 4:47 p.m., 7 fix-style commits landed in a row over 69 minutes."
+        },
+        {
+          "text": "The history shows \"Fixing specs due to Request change\".",
+          "cites": [
+            "F28"
+          ],
+          "speak": "The history shows \"Fixing specs due to Request change\"."
+        },
+        {
+          "text": "Other entries included \"Fixed some cookie specs\".",
+          "cites": [
+            "F28"
+          ],
+          "speak": "Other entries included \"Fixed some cookie specs\"."
+        }
+      ]
+    },
+    {
+      "n": "III",
+      "kind": "first_release",
+      "title": "The First Release",
+      "date": "2010-01-03",
+      "cards": [
+        {
+          "sha": "728b643",
+          "author": "TJ Holowaychuk",
+          "date": "2010-01-03 05:25",
+          "subject": "Google is being really slow so localize jquery.js for sample app",
+          "add": 20,
+          "del": 1,
+          "note": "tag 0.0.1"
+        }
+      ],
+      "lines": [
+        {
+          "text": "The project reached a milestone on January 3, 2010, when the first tag, 0.0.1, was cut.",
+          "cites": [
+            "F7"
+          ],
+          "speak": "The project reached a milestone on January 3, 2010, when the first tag, 0.0.1, was cut."
+        },
+        {
+          "text": "This occurred 6 months after the first commit.",
+          "cites": [
+            "F7"
+          ],
+          "speak": "This occurred 6 months after the first commit."
+        },
+        {
+          "text": "Throughout 2010, 1,680 commits were made by 18 authors.",
+          "cites": [
+            "F44"
+          ],
+          "speak": "Throughout 2010, 1,680 commits were made by 18 authors."
+        }
+      ]
+    },
+    {
+      "n": "IV",
+      "kind": "purge",
+      "title": "The Purge",
+      "date": "2010-07-05",
+      "cards": [
+        {
+          "sha": "f97a222",
+          "author": "TJ Holowaychuk",
+          "date": "2010-07-05 14:50",
+          "subject": "Removed specs",
+          "add": 0,
+          "del": 4821,
+          "note": "the big one"
+        }
+      ],
+      "lines": [
+        {
+          "text": "The year 2010 saw 1,680 commits from 18 authors.",
+          "cites": [
+            "F45"
+          ],
+          "speak": "The year 2010 saw 1,680 commits from 18 authors."
+        },
+        {
+          "text": "Then came July 5, 2010, when TJ Holowaychuk landed \"Removed specs\".",
+          "cites": [
+            "F24"
+          ],
+          "speak": "Then came July 5, 2010, when TJ Holowaychuk landed \"Removed specs\"."
+        },
+        {
+          "text": "It was a massive erasure: 53 files were touched, with +0 and -4,821 lines.",
+          "cites": [
+            "F24"
+          ],
+          "speak": "It was a massive erasure: 53 files were touched, with 0 and -4,821 lines."
+        }
+      ]
+    },
+    {
+      "n": "V",
+      "kind": "crunch",
+      "title": "Crunch Week",
+      "date": "2010-07-12",
+      "cards": [
+        {
+          "sha": "cdf49dc",
+          "author": "TJ Holowaychuk",
+          "date": "2010-07-12 11:35",
+          "subject": "Removed a utils.merge() call",
+          "add": 1,
+          "del": 1,
+          "note": ""
+        },
+        {
+          "sha": "1bcccb3",
+          "author": "TJ Holowaychuk",
+          "date": "2010-07-12 14:14",
+          "subject": "Added req.flash()",
+          "add": 100,
+          "del": 0,
+          "note": ""
+        },
+        {
+          "sha": "3c06c82",
+          "author": "TJ Holowaychuk",
+          "date": "2010-07-12 14:55",
+          "subject": "Added tests for req.flash()",
+          "add": 38,
+          "del": 2,
+          "note": ""
+        }
+      ],
+      "lines": [
+        {
+          "text": "The pace of development accelerated into a frantic fever on July 12, 2010.",
+          "cites": [
+            "F36"
+          ],
+          "speak": "The pace of development accelerated into a frantic fever on July 12, 2010."
+        },
+        {
+          "text": "In a single week, 158 commits were made, far exceeding the typical week of 6.",
+          "cites": [
+            "F36"
+          ],
+          "speak": "In a single week, 158 commits were made, far exceeding the typical week of 6."
+        },
+        {
+          "text": "TJ Holowaychuk made 156 of those commits.",
+          "cites": [
+            "F37"
+          ],
+          "speak": "TJ Holowaychuk made 156 of those commits."
+        }
+      ]
+    },
+    {
+      "n": "VI",
+      "kind": "purge",
+      "title": "The Purge, Part II",
+      "date": "2012-04-15",
+      "cards": [
+        {
+          "sha": "856f3b3",
+          "author": "TJ Holowaychuk",
+          "date": "2012-04-15 19:42",
+          "subject": "removed old docs",
+          "add": 0,
+          "del": 5316,
+          "note": "the big one"
+        }
+      ],
+      "lines": [
+        {
+          "text": "On April 15, 2012, TJ Holowaychuk executed a massive deletion, landing a commit titled \"removed old docs\".",
+          "cites": [
+            "F23"
+          ],
+          "speak": "On April 15, 2012, TJ Holowaychuk executed a massive deletion, landing a commit titled \"removed old docs\"."
+        },
+        {
+          "text": "This action struck 31 files, resulting in +0 and -5,316 lines.",
+          "cites": [
+            "F23"
+          ],
+          "speak": "This action struck 31 files, resulting in 0 and -5,316 lines."
+        },
+        {
+          "text": "Throughout 2012, 42 authors contributed 545 commits.",
+          "cites": [
+            "F47"
+          ],
+          "speak": "Throughout 2012, 42 authors contributed 545 commits."
+        }
+      ]
+    },
+    {
+      "n": "VII",
+      "kind": "revert",
+      "title": "The Betrayal",
+      "date": "2012-12-06",
+      "cards": [
+        {
+          "sha": "6f6eec7",
+          "author": "Max Riveiro",
+          "date": "2012-12-05 16:48",
+          "subject": "add 'etag' option",
+          "add": 72,
+          "del": 10,
+          "note": "the change"
+        },
+        {
+          "sha": "9bd86cd",
+          "author": "TJ Holowaychuk",
+          "date": "2012-12-06 15:15",
+          "subject": "Revert \"add 'etag' option\"",
+          "add": 10,
+          "del": 72,
+          "note": "the revert"
+        }
+      ],
+      "lines": [
+        {
+          "text": "The history is scarred by 21 revert commits.",
+          "cites": [
+            "F25"
+          ],
+          "speak": "The history is scarred by 21 revert commits."
+        },
+        {
+          "text": "On December 6, 2012, TJ Holowaychuk reverted a commit by Max Riveiro titled \"add 'etag' option\" which had lasted 22 hours.",
+          "cites": [
+            "F26"
+          ],
+          "speak": "On December 6, 2012, TJ Holowaychuk reverted a commit by Max Riveiro titled \"add 'etag' option\" which had lasted 22 hours."
+        }
+      ]
+    },
+    {
+      "n": "VIII",
+      "kind": "founder_exit",
+      "title": "The Founder Walks Away",
+      "date": "2014-02-19",
+      "cards": [
+        {
+          "sha": "6b05f60",
+          "author": "TJ Holowaychuk",
+          "date": "2014-02-19 15:29",
+          "subject": "update node-fresh",
+          "add": 1,
+          "del": 1,
+          "note": "TJ Holowaychuk's last commit"
+        }
+      ],
+      "lines": [
+        {
+          "text": "TJ Holowaychuk made 3,881 commits, the last of which occurred on February 19, 2014, with the message \"update node-fresh\".",
+          "cites": [
+            "F3"
+          ],
+          "speak": "TJ Holowaychuk made 3,881 commits, the last of which occurred on February 19, 2014, with the message \"update node-fresh\"."
+        },
+        {
+          "text": "In 2014, 47 authors made 733 commits, and 1,892 more commits were made by others after that date.",
+          "cites": [
+            "F4",
+            "F49"
+          ],
+          "speak": "In 2014, 47 authors made 733 commits, and 1,892 more commits were made by others after that date."
+        }
+      ]
+    },
+    {
+      "n": "IX",
+      "kind": "major_release",
+      "title": "The Long Road to v5.0.0",
+      "date": "2024-09-09",
+      "cards": [
+        {
+          "sha": "344b022",
+          "author": "Wes Todd",
+          "date": "2024-09-09 23:35",
+          "subject": "5.0.0",
+          "add": 2,
+          "del": 2,
+          "note": "tag v5.0.0"
+        },
+        {
+          "sha": "4052c15",
+          "author": "Douglas Christopher Wilson",
+          "date": "2014-11-06 21:52",
+          "subject": "5.0.0-alpha.1",
+          "add": 3,
+          "del": 3,
+          "note": "tag 5.0.0-alpha.1"
+        }
+      ],
+      "lines": [
+        {
+          "text": "The journey toward the final release began on November 6, 2014, with the tagging of 5.0.0-alpha.1.",
+          "cites": [
+            "F21"
+          ],
+          "speak": "The journey toward the final release began on November 6, 2014, with the tagging of 5.0.0 alpha 1."
+        },
+        {
+          "text": "It would take 9.8 years to reach the end.",
+          "cites": [
+            "F21"
+          ],
+          "speak": "It would take 9.8 years to reach the end."
+        },
+        {
+          "text": "On September 9, 2024, version v5.0.0 was tagged, 10.4 years after 4.0.0.",
+          "cites": [
+            "F19",
+            "F20"
+          ],
+          "speak": "On September 9, 2024, version version 5 point 0 was tagged, 10.4 years after 4.0.0."
+        },
+        {
+          "text": "In 2024, 23 authors made 139 commits.",
+          "cites": [
+            "F50"
+          ],
+          "speak": "In 2024, 23 authors made 139 commits."
+        }
+      ]
+    },
+    {
+      "n": "X",
+      "kind": "present",
+      "title": "Present Day",
+      "date": "2026-10-24",
+      "cards": [
+        {
+          "sha": "1c6f1b0",
+          "author": "Bhavya Dhiman",
+          "date": "2026-10-24 02:51",
+          "subject": "test: expand coverage for request, response and view behavior (#7112)",
+          "add": 563,
+          "del": 9,
+          "note": "today"
+        }
+      ],
+      "lines": [
+        {
+          "text": "The history now holds 6,183 commits by 386 authors over 17.3 years.",
+          "cites": [
+            "F39"
+          ],
+          "speak": "The history now holds 6,183 commits by 386 authors over 17.3 years."
+        },
+        {
+          "text": "Across these records, 131,031 lines were added and 103,175 deleted.",
+          "cites": [
+            "F40"
+          ],
+          "speak": "Across these records, 131,031 lines were added and 103,175 deleted."
+        },
+        {
+          "text": "On October 24, 2026, Bhavya Dhiman committed \"test: expand coverage for request, response and view behavior (#7112)\".",
+          "cites": [
+            "F41"
+          ],
+          "speak": "On October 24, 2026, Bhavya Dhiman committed \"test: expand coverage for request, response and view behavior (#7112)\"."
+        }
+      ]
+    }
+  ]
+}

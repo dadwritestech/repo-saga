@@ -20,10 +20,11 @@ for the render.
 
 | Repo | Commits | Film | Saga |
 |---|---|---|---|
-| [expressjs/express](https://github.com/expressjs/express) | 6,183 over 17 years | [`demos/express-saga.mp4`](demos/express-saga.mp4) | [`demos/express/saga.md`](demos/express/saga.md) |
-| [LlamaForge](https://github.com/dadwritestech/LlamaForge) | 470 over 3 months | [`demos/llamaforge-saga.mp4`](demos/llamaforge-saga.mp4) | [`demos/llamaforge/saga.md`](demos/llamaforge/saga.md) |
+| [expressjs/express](https://github.com/expressjs/express) | 6,183 over 17 years | [`express-saga.mp4`](demos/express-saga.mp4) (3:04, 10 chapters) | [`demos/express/saga.md`](demos/express/saga.md) |
+| [LlamaForge](https://github.com/dadwritestech/LlamaForge) | 470 over 3 months | [`llamaforge-saga.mp4`](demos/llamaforge-saga.mp4) (2:52, 9 chapters) | [`demos/llamaforge/saga.md`](demos/llamaforge/saga.md) |
 
-From the express saga:
+The committed films are 720p copies; `python -m saga.render` writes 1080p. Each demo folder
+also holds the timeline, script and fact-check log. From the express saga:
 
 > The history is scarred by 21 revert commits.¹⁴ On December 6, 2012, TJ Holowaychuk
 > reverted a commit by Max Riveiro titled "add 'etag' option" which had lasted 22 hours.¹⁵
@@ -94,8 +95,9 @@ Environment: `LLAMA_BASE_URL` (default `http://localhost:8080`), `LLAMA_API_KEY`
 v0, local only. Known limits:
 - The miner reads `HEAD`'s history. Force-push detection needs a local reflog, so on a fresh
   clone it sees none.
-- Narration runs about 2 minutes per TTS call on a machine whose GPUs are busy with an LLM, so one
-  film takes ~20-25 minutes to voice.
+- Narration is one llama-tts call per chapter: 10-30 s each here (about 3 minutes per film),
+  slower when the GPUs are busy with an LLM. Captions follow sentence times recovered from
+  the pauses in the voiced audio, so a sentence can land up to ~0.5 s off.
 - The drama comes from the heuristics. For example, a "betrayal" is a revert by a different author.
   The facts are true; the chapter titles are editorial.
 - The name collides with [teee32/repo-saga](https://github.com/teee32/repo-saga) (a static

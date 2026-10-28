@@ -1,0 +1,65 @@
+{
+  "I": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The foundation was laid on July 20, 2026, when dadwritestech initiated the LlamaForge working tree.\", \"cites\": [\"F1\"]},\n {\"text\": \"The first commit carried the message \\\"chore: initial commit of LlamaForge working tree (pre-lite-mode)\\\".\", \"cites\": [\"F1\"]},\n {\"text\": \"The project moved rapidly, accumulating 123 commits in its first 30 days.\", \"cites\": [\"F2\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "II": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The momentum of the early days shifted into a massive structural overhaul on July 25, 2026.\", \"cites\": [\"F5\"]},\n {\"text\": \"dadwritestech pushed a commit titled \\\"Address architect review: persistence, trust boundary, routing, engines, frontend\\\" that altered 54 files.\", \"cites\": [\"F5\"]},\n {\"text\": \"The change was seismic, adding +5,165 and -2,632 lines.\", \"cites\": [\"F5\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "III": [
+    {
+      "attempt": 1,
+      "raw": "{\n \"lines\": [\n  {\"text\": \"The integrity of the past began to fracture.\", \"cites\": [\"F14\"]},\n  {\"text\": \"The local reflog records 2 forced updates, where history was rewritten and force-pushed.\", \"cites\": [\"F14\"]}\n ]\n}",
+      "errors": []
+    }
+  ],
+  "IV": [
+    {
+      "attempt": 1,
+      "raw": "{\n \"lines\": [\n  {\"text\": \"The first milestone arrived on September 6, 2026.\", \"cites\": [\"F3\"]},\n  {\"text\": \"Exactly 47 days after the first commit, the repository saw the cut of the first tag, v0.9.0.\", \"cites\": [\"F3\"]}\n ]\n}",
+      "errors": []
+    }
+  ],
+  "V": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"Following the merge of pull request #25 on September 6, 2026, the repository fell into a period of inactivity.\", \"cites\": [\"F12\"]},\n {\"text\": \"Nothing was committed for 26 days.\", \"cites\": [\"F12\"]},\n {\"text\": \"The silence ended on October 2, 2026, when dadwritestech committed \\\"chore: add issue/PR templates, CONTRIBUTING, ignore local scratch\\\".\", \"cites\": [\"F13\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VI": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"A frantic sequence of repairs began on October 4, 2026.\", \"cites\": [\"F7\"]},\n {\"text\": \"Between 12:22 p.m. and 6:53 p.m., 13 fix-style commits landed in a row over 6 hours.\", \"cites\": [\"F7\"]},\n {\"text\": \"These updates addressed issues such as \\\"fix(embers): a small positive thinking budget, since...\\\"\", \"cites\": [\"F8\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VII": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"On October 5, 2026, dadwritestech initiated a massive overhaul to the architecture.\", \"cites\": [\"F6\"]},\n {\"text\": \"The commit, \\\"pin a model to its own build, run in its own process\\\", altered 24 files with +2,487 and -116 lines.\", \"cites\": [\"F6\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VIII": [
+    {
+      "attempt": 1,
+      "raw": "{\n \"lines\": [\n  {\"text\": \"The repository entered a nocturnal phase where 38 of 470 commits, or 8 percent, were authored between midnight and 5 a.m.\", \"cites\": [\"F9\"]},\n  {\"text\": \"The most nocturnal author was dadwritestech, who contributed 38 commits before 5 a.m.\", \"cites\": [\"F11\"]},\n  {\"text\": \"At 4:24 a.m. on October 5, 2026, dadwritestech committed \\\"drive LlamaForge and pi from Claude Code, Codex or any MCP client\\\".\", \"cites\": [\"F10\"]}\n ]\n}",
+      "errors": []
+    }
+  ],
+  "IX": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The history now holds 470 commits by 2 authors, spanning over 3 months.\", \"cites\": [\"F15\"]},\n {\"text\": \"These records show 76,263 lines were added and 7,523 deleted, while 16 tags mark the main line.\", \"cites\": [\"F4\", \"F16\"]},\n {\"text\": \"On October 26, 2026, dadwritestech committed \\\"release: v0.17.1\\\".\", \"cites\": [\"F17\"]}\n]}",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "I": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"Every great architecture begins with a single stroke.\", \"cites\": [\"F1\"]},\n {\"text\": \"On June 26, 2009, TJ Holowaychuk submitted the \\\"Initial commit\\\".\", \"cites\": [\"F1\"]},\n {\"text\": \"By the end of 2009, 660 commits had been made by 5 authors.\", \"cites\": [\"F42\"]}\n]}",
+      "errors": [
+        "claims the project or a person ended; the facts only say what was committed: 'By the end of 2009, 660 commits had been made by 5 authors.'"
+      ]
+    },
+    {
+      "attempt": 2,
+      "raw": "{\"lines\": [\n {\"text\": \"A foundation was laid on June 26, 2009, with a commit from TJ Holowaychuk titled \\\"Initial commit\\\".\", \"cites\": [\"F1\"]},\n {\"text\": \"In the first 30 days, the repository received 179 commits.\", \"cites\": [\"F2\"]},\n {\"text\": \"Throughout 2009, 5 authors produced 660 commits.\", \"cites\": [\"F42\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "II": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"On December 15, 2009, a period of rapid correction began.\", \"cites\": [\"F27\"]},\n {\"text\": \"Between 3:37 p.m. and 4:47 p.m., 7 fix-style commits landed in a row over 69 minutes.\", \"cites\": [\"F27\"]},\n {\"text\": \"They recorded changes such as \\\"Fixing specs due to Request change\\\" and \\\"Fixed some cookie specs\\\".\", \"cites\": [\"F28\"]}\n]}",
+      "errors": [
+        "more than one quote in a sentence: 'They recorded changes such as \"Fixing specs due to Request change\" and \"Fixed some cookie specs\".'"
+      ]
+    },
+    {
+      "attempt": 2,
+      "raw": "{\"lines\": [\n {\"text\": \"On December 15, 2009, a period of rapid correction began.\", \"cites\": [\"F27\"]},\n {\"text\": \"Between 3:37 p.m. and 4:47 p.m., 7 fix-style commits landed in a row over 69 minutes.\", \"cites\": [\"F27\"]},\n {\"text\": \"The history shows \\\"Fixing specs due to Request change\\\".\", \"cites\": [\"F28\"]},\n {\"text\": \"Other entries included \\\"Fixed some cookie specs\\\".\", \"cites\": [\"F28\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "III": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The project reached a milestone on January 3, 2010, when the first tag, 0.0.1, was cut.\", \"cites\": [\"F7\"]},\n {\"text\": \"This occurred 6 months after the first commit.\", \"cites\": [\"F7\"]},\n {\"text\": \"Throughout 2010, 1,680 commits were made by 18 authors.\", \"cites\": [\"F44\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "IV": [
+    {
+      "attempt": 1,
+      "raw": "{\n \"lines\": [\n  {\"text\": \"The year 2010 saw 1,680 commits from 18 authors.\", \"cites\": [\"F45\"]},\n  {\"text\": \"Then came July 5, 2010, when TJ Holowaychuk landed \\\"Removed specs\\\".\", \"cites\": [\"F24\"]},\n  {\"text\": \"It was a massive erasure: 53 files were touched, with +0 and -4,821 lines.\", \"cites\": [\"F24\"]}\n ]\n}",
+      "errors": []
+    }
+  ],
+  "V": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The pace of development accelerated into a frantic fever on July 12, 2010.\", \"cites\": [\"F36\"]},\n {\"text\": \"In a single week, 158 commits were made, far exceeding the typical week of 6.\", \"cites\": [\"F36\"]},\n {\"text\": \"TJ Holowaychuk made 156 of those commits.\", \"cites\": [\"F37\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VI": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"On April 15, 2012, TJ Holowaychuk executed a massive deletion, landing a commit titled \\\"removed old docs\\\".\", \"cites\": [\"F23\"]},\n {\"text\": \"This action struck 31 files, resulting in +0 and -5,316 lines.\", \"cites\": [\"F23\"]},\n {\"text\": \"Throughout 2012, 42 authors contributed 545 commits.\", \"cites\": [\"F47\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VII": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The history is scarred by 21 revert commits.\", \"cites\": [\"F25\"]},\n {\"text\": \"On December 6, 2012, TJ Holowaychuk reverted a commit by Max Riveiro titled \\\"add 'etag' option\\\" which had lasted 22 hours.\", \"cites\": [\"F26\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "VIII": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The era of the founder reached its conclusion on February 19, 2014, when TJ Holowaychuk submitted the final commit of 3,881, titled \\\"update node-fresh\\\".\", \"cites\": [\"F3\"]},\n {\"text\": \"In 2014, 47 authors produced 733 commits, and 1,892 more commits followed after that moment.\", \"cites\": [\"F4\", \"F49\"]}\n]}",
+      "errors": [
+        "claims the project or a person ended; the facts only say what was committed: 'The era of the founder reached its conclusion on February 19, 2014, when TJ Holowaychuk submitted the final commit of 3,881, titled \"update node-fresh\".'"
+      ]
+    },
+    {
+      "attempt": 2,
+      "raw": "{\"lines\": [\n {\"text\": \"TJ Holowaychuk made 3,881 commits, the last of which occurred on February 19, 2014, with the message \\\"update node-fresh\\\".\", \"cites\": [\"F3\"]},\n {\"text\": \"In 2014, 47 authors made 733 commits, and 1,892 more commits were made by others after that date.\", \"cites\": [\"F4\", \"F49\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "IX": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The journey toward the final release began on November 6, 2014, with the tagging of 5.0.0-alpha.1.\", \"cites\": [\"F21\"]},\n {\"text\": \"It would take 9.8 years to reach the end.\", \"cites\": [\"F21\"]},\n {\"text\": \"On September 9, 2024, version v5.0.0 was tagged, 10.4 years after 4.0.0.\", \"cites\": [\"F19\", \"F20\"]},\n {\"text\": \"In 2024, 23 authors made 139 commits.\", \"cites\": [\"F50\"]}\n]}",
+      "errors": []
+    }
+  ],
+  "X": [
+    {
+      "attempt": 1,
+      "raw": "{\"lines\": [\n {\"text\": \"The history now holds 6,183 commits by 386 authors over 17.3 years.\", \"cites\": [\"F39\"]},\n {\"text\": \"Across these records, 131,031 lines were added and 103,175 deleted.\", \"cites\": [\"F40\"]},\n {\"text\": \"On October 24, 2026, Bhavya Dhiman committed \\\"test: expand coverage for request, response and view behavior (#7112)\\\".\", \"cites\": [\"F41\"]}\n]}",
+      "errors": []
+    }
+  ]
+}
