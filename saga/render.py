@@ -17,7 +17,7 @@ import os
 import shutil
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE = os.path.join(os.path.dirname(HERE), "template")
@@ -61,6 +61,8 @@ def build_html(script: dict, timeline: dict, timing: dict | None) -> tuple[str, 
     bars = "".join(f'<i style="height:{4 + 96 * math.sqrt(m["commits"] / peak):.1f}%"></i>' for m in act)
     ticks = "".join(f'<b class="tick" style="left:{100 * frac(c["ch"]["date"], first, last):.2f}%"></b>' for c in chapters)
     yr0, yr1 = first[:4], last[:4]
+    if yr0 == yr1:                                  # one-year repo: label the strip by month
+        yr0, yr1 = (datetime.fromisoformat(x).strftime("%b %Y") for x in (first, last))
     body, js = [], []
     A = js.append
 
@@ -84,8 +86,8 @@ def build_html(script: dict, timeline: dict, timing: dict | None) -> tuple[str, 
         ch, s, d = c["ch"], c["start"], c["dur"]
         cid = f"c{i}"
         year = ch["date"][:4]
-        cards = ch["cards"][:5]
-        compact = len(cards) > 3
+        cards = ch["cards"][:3]
+        compact = len(cards) > 2
         card_html = []
         for k, cd in enumerate(cards):
             churn = cd["add"] + cd["del"]
@@ -176,9 +178,9 @@ def build_html(script: dict, timeline: dict, timing: dict | None) -> tuple[str, 
       </div>
       {''.join(body)}
       <div id="hud" class="clip" data-start="0" data-duration="{total:.3f}" data-track-index="2">
+        <div id="vignette"></div><div class="lb top"></div><div class="lb bot"></div>
         <div id="strip"><div class="yr l">{yr0}</div><div class="yr r">{yr1}</div>
           <div id="bars">{bars}</div>{ticks}<div id="playhead"></div></div>
-        <div id="vignette"></div><div class="lb top"></div><div class="lb bot"></div>
       </div>
       {''.join(audio)}
     </div>
@@ -221,7 +223,7 @@ CSS = """
       #dust { position: absolute; inset: 0; opacity: .35;
               background-image: radial-gradient(rgba(239,230,214,.10) 1px, transparent 1.4px), radial-gradient(rgba(239,230,214,.06) 1px, transparent 1.2px);
               background-size: 140px 140px, 67px 67px; background-position: 0 0, 30px 50px; }
-      #vignette { position: absolute; inset: 0; background: radial-gradient(1300px 820px at 50% 48%, transparent 52%, rgba(0,0,0,.72) 100%); }
+      #vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(1300px 820px at 50% 48%, transparent 52%, rgba(0,0,0,.72) 100%); }
       .lb { position: absolute; left: 0; right: 0; height: 64px; background: #000; }
       .lb.top { top: 0; } .lb.bot { bottom: 0; }
       .fr { font-family: "Fraunces"; font-style: italic; font-weight: 400; letter-spacing: -.01em; line-height: 1; color: var(--ink); }
@@ -229,7 +231,7 @@ CSS = """
       .sub { font-family: "Barlow"; font-weight: 500; font-size: 34px; color: var(--dim); letter-spacing: .02em; }
       .mono { font-family: "Mono"; font-weight: 400; font-size: 26px; color: var(--dim); letter-spacing: .04em; }
       .year { right: -40px; top: 40px; font-family: "Fraunces"; font-style: italic; font-weight: 300; font-size: 560px; line-height: 1;
-              color: rgba(239,230,214,.045); letter-spacing: -.04em; }
+              color: rgba(239,230,214,.075); letter-spacing: -.04em; }
       .cardwrap { left: 0; right: 0; top: 330px; text-align: center; }
       .cardwrap .kicker { margin-bottom: 34px; }
       .ctitle { font-size: 150px; margin-bottom: 34px; }

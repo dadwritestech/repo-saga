@@ -108,14 +108,14 @@ def check_line(line: dict, allowed: dict[str, dict], authors: set[str]) -> list[
             errs.append(f"names {a!r} without citing a fact about them: {text!r}")
     if len(re.findall(r"[\"“][^\"”]{3,}[\"”]", text)) > 1:
         errs.append(f"more than one quote in a sentence: {text!r}")
-    if re.search(r"(conclusion|the end of|died|dead|abandon)", text, re.I):
+    if re.search(r"\b(conclusion|the end of|died|dead|abandon)", text, re.I):
         errs.append(f"claims the project or a person ended; the facts only say what was committed: {text!r}")
     for q in re.findall(r"[\"“]([^\"”]{3,})[\"”]", text):
         if q.strip(" .,…").lower() not in src.lower():
             errs.append(f"quote {q!r} is not verbatim in the cited facts: {text!r}")
     if "!" in text:
         errs.append(f"exclamation mark: {text!r}")
-    if re.search(r"(he|she|him|her|his|hers)", text, re.I):
+    if re.search(r"\b(he|she|him|her|his|hers)\b", text, re.I):
         errs.append(f"gendered pronoun; use the name or 'they': {text!r}")
     return errs
 
@@ -228,7 +228,7 @@ def main(argv=None):
         chapters.append({**{k: ch[k] for k in ("n", "kind", "title", "date", "cards")}, "lines": lines})
     r = t["repo"]
     script = {"schema": "repo-saga/script@1", "repo": r["name"], "head": r["head"], "model": a.model,
-              "title": r["name"], "subtitle": f"A history in {len(chapters)} chapters, {r['first'][:4]}–{r['last'][:4]}",
+              "title": r["name"], "subtitle": f"A history in {len(chapters)} chapters, " + (r['first'][:4] if r['first'][:4] == r['last'][:4] else f"{r['first'][:4]}–{r['last'][:4]}"),
               "chapters": chapters}
     json.dump(script, open(os.path.join(a.out, "script.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     json.dump(logs, open(os.path.join(a.out, "factcheck-log.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)

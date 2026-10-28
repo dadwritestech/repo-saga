@@ -418,8 +418,11 @@ class Saga:
             if e["kind"] in ("present",):
                 continue
             yr = e["date"].year
+            if self.commits[0]["adate"].year == self.commits[-1]["adate"].year:
+                break                               # one-year repo: the present-day chapter says it
             cs = [c for c in self.commits if c["adate"].year == yr]
-            e["facts"].append(self.fact(f"In {yr} as a whole, {n(len(cs))} commits were made by {n(len({c['author'] for c in cs}))} authors.", cs[-1]))
+            when = f"So far in {yr}" if yr == self.commits[-1]["adate"].year else f"In {yr} as a whole"
+            e["facts"].append(self.fact(f"{when}, {n(len(cs))} commits were made by {n(len({c['author'] for c in cs}))} authors.", cs[-1]))
         used = {fid for e in chosen for fid in e["facts"]}
         chapters = []
         roman = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
