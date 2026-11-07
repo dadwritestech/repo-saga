@@ -103,3 +103,7 @@ v0, local only. Known limits:
 - The name collides with [teee32/repo-saga](https://github.com/teee32/repo-saga) (a static
   history poster with no narration). Rename before any release. See
   [`docs/competition.md`](docs/competition.md).
+
+## License
+
+[Apache-2.0](LICENSE). The demo films narrate public git history of their projects.
